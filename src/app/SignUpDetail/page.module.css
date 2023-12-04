@@ -100,6 +100,10 @@
     pointer-events: none;
 }
 
+.option:hover{
+	background-color: #EE6E18;
+}
+
 .signUpButton{
 	font-size: 16px;
 	color: #FFF;
@@ -110,4 +114,33 @@
         padding:12px 13px;
         width: 27vw;
 
+}
+
+.help{
+	color: #fff;
+	width: 20px;
+	height: 21px;
+	padding-right: 1px;
+	margin-left: 70px;
+	border: 1px solid #EE6E18;
+	border-radius:100%;
+	background-color: #EE6E18;
+}
+
+.helpmsg{
+	position: absolute;
+	top: 0px;
+	left: 320px;
+	width: 180px;
+	border: 1px solid #555;
+	border-radius: 8px;
+	background-color: #fff;
+	padding: 8px;
+	font-size: 0.8rem;
+	color: #333;
+	display: none;
+}
+
+.help:hover + .helpmsg{
+	display: block;
 }
