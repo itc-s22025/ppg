@@ -15,7 +15,7 @@ const SignUpDetailFrame = ({title}) => {
 						<li className={s.li}>Birth Day</li>
 						<label className={s.selectbox}>
     							<select>
-        							<option>Jan</option>
+        							<option className={s.option}>Jan</option>
         							<option>Feb</option>
 								<option>Mar</option>
         							<option>Apr</option>
@@ -127,8 +127,9 @@ const SignUpDetailFrame = ({title}) => {
         							<option>Remove</option>
     							</select>
 						</label>
+						<p className={s.help}>?</p>
+						<p className={s.helpmsg}>Applyを選択することで、タイムラインに表示するユーザーを同性のユーザーのみに設定することができます。</p>
 					</ul>
- 
                                         
 					<p><input type="submit" value="SIGN UP" className={s.signUpButton} /></p>
                                 </div>
