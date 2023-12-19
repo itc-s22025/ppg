@@ -6,7 +6,7 @@ const Main = () => {
         return(
 		<>
 				<div className={s.all}>
-				<Image src="/muscleOrange.png" width={400} height={180} className={s.image}/>
+				<Image src="/muscleOrange.png" width={400} height={180} className={s.image} alt="Muscle Orange"/>
 				<SignUpDetailFrame  title="Sign Up" />
 				</div>
                 </>
