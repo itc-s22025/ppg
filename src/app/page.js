@@ -1,16 +1,12 @@
-import s from './page.module.css'
-import SignInFrame from './SignInFrame.js'
-import Image from 'next/image'
+import React from 'react';
 
-const SignIn = () => {
-        return(
-                <>
-		    <div className={s.all}>
-		    <Image src="/MUSCLE_WHITE.png" width={400} height={180} className={s.image} alt="Muscle White"/>
-		    <SignInFrame title="Sign In" />
-		    </div>
-		</>
-        )
+function App() {
+  return (
+    <div>
+      <h1>Hello, World!ദ്ദി^._.^)	</h1>
+    </div>
+  );
 }
 
-export default SignIn
+export default App;
+
